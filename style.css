@@ -64,7 +64,9 @@ justify-content:center;
 align-items:center;
 text-align:center;
 padding:20px;
-
+position:relative;
+overflow:hidden;
+}  
 .hero h1{
 font-size:52px;
 color:#FFD700;
@@ -77,11 +79,6 @@ max-width:850px;
 line-height:1.8;
 margin-bottom:35px;
 }
-.hero{
-position:relative;
-overflow:hidden;
-}
-
 .hero-video{
 position:absolute;
 top:0;
