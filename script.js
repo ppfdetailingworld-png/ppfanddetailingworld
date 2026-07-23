@@ -1,15 +1,21 @@
-document.addEventListener("DOMContentLoaded", function () {
-    console.log("PPF & Detailing World Website Loaded");
+const galleryImages = document.querySelectorAll(".gallery-box img");
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const closeBtn = document.querySelector(".close");
 
-    const buttons = document.querySelectorAll(".btn");
-
-    buttons.forEach(btn => {
-        btn.addEventListener("mouseenter", function () {
-            this.style.transform = "scale(1.08)";
-        });
-
-        btn.addEventListener("mouseleave", function () {
-            this.style.transform = "scale(1)";
-        });
+galleryImages.forEach(img => {
+    img.addEventListener("click", () => {
+        lightbox.style.display = "flex";
+        lightboxImg.src = img.src;
     });
+});
+
+closeBtn.addEventListener("click", () => {
+    lightbox.style.display = "none";
+});
+
+lightbox.addEventListener("click", (e) => {
+    if(e.target === lightbox){
+        lightbox.style.display = "none";
+    }
 });
