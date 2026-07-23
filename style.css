@@ -207,5 +207,23 @@ height:140px;
 object-fit:cover;
 border-radius:10px;
 }
+header{
+padding:12px 5%;
+}
+
+.logo{
+font-size:16px;
+gap:8px;
+}
+
+.logo img{
+width:45px;
+height:45px;
+}
+
+nav a{
+font-size:15px;
+margin-left:12px;
+}
 
   }
