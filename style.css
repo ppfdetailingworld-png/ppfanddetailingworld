@@ -26,9 +26,20 @@ z-index:999;
 }
 
 .logo{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:12px;
 font-size:28px;
 font-weight:700;
 color:#FFD700;
+}
+
+.logo img{
+width:55px;
+height:55px;
+border-radius:50%;
+object-fit:cover;
 }
 
 nav a{
