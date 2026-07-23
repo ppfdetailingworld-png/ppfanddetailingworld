@@ -1,3 +1,4 @@
+alert("Script Loaded");
 const galleryImages = document.querySelectorAll(".gallery-box img");
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
