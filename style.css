@@ -195,17 +195,17 @@ transform:scale(1.05);
 
 header{
 flex-direction:column;
-padding:12px 5%;
+padding:16px 5%;
 }
 
 .logo{
-font-size:18px;
-gap:10px;
+font-size:22px;
+gap:14px;
 }
 
 .logo img{
-width:50px;
-height:50px;
+width:65px;
+height:65px;
 }
 
 nav{
@@ -214,8 +214,9 @@ margin-top:10px;
 
 nav a{
 display:inline-block;
-margin:8px;
-font-size:15px;
+margin:0 10px;
+font-size:16px;
+font-weight:600;
 }
 
 .hero h1{
