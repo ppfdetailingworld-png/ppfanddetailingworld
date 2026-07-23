@@ -3,19 +3,19 @@ const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const closeBtn = document.querySelector(".close");
 
-galleryImages.forEach(img => {
-    img.addEventListener("click", () => {
-        lightbox.style.display = "flex";
-        lightboxImg.src = img.src;
-    });
+galleryImages.forEach((img) => {
+  img.onclick = function () {
+    lightbox.style.display = "flex";
+    lightboxImg.src = this.src;
+  };
 });
 
-closeBtn.addEventListener("click", () => {
+closeBtn.onclick = function () {
+  lightbox.style.display = "none";
+};
+
+lightbox.onclick = function (e) {
+  if (e.target === lightbox) {
     lightbox.style.display = "none";
-});
-
-lightbox.addEventListener("click", (e) => {
-    if(e.target === lightbox){
-        lightbox.style.display = "none";
-    }
-});
+  }
+};
