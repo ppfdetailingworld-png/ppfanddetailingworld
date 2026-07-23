@@ -1,15 +1,12 @@
-alert("Script Loaded");
 const galleryImages = document.querySelectorAll(".gallery-box img");
-alert(galleryImages.length);
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const closeBtn = document.querySelector(".close");
 
 galleryImages.forEach((img) => {
   img.onclick = function () {
-    alert("Image Clicked");
-    lightbox.style.display = "flex";
     lightboxImg.src = this.src;
+    lightbox.style.display = "flex";
 };
       });
 
