@@ -9,12 +9,12 @@ font-family:'Poppins',sans-serif;
 body{
 background:#0d0d0d;
 color:#fff;
+padding-top:100px;  
 }
 
 header{
-position:fixed;
+position:sticky;
 top:0;
-left:0;
 width:100%;
 display:flex;
 justify-content:space-between;
@@ -23,6 +23,7 @@ padding:18px 8%;
 background:#000;
 box-shadow:0 2px 15px rgba(255,215,0,.15);
 z-index:999;
+box-sizing:border-box;  
 }
 
 .logo{
