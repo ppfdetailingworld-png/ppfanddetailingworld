@@ -360,7 +360,7 @@ color:#FFD700;
 }
 .gallery-box video{
     width:100%;
-    height:140px;
+    aspect-ratio:1/1;
     object-fit:cover;
     border-radius:10px;
 }
