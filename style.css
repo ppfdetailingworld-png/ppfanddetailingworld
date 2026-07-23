@@ -589,3 +589,6 @@ color:#000;
 .gallery-box{
 animation:fadeUp .8s ease both;
 }
+html{
+    scroll-behavior:smooth;
+}
