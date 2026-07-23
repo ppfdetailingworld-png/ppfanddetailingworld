@@ -393,3 +393,33 @@ color:#FFD700;
         grid-template-columns:repeat(4,1fr) !important;
     }
 }
+/* Instagram Style Gallery */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+    margin-top:20px;
+}
+
+.gallery-box{
+    width:100%;
+    overflow:hidden;
+    border-radius:12px;
+}
+
+.gallery-box img,
+.gallery-box video{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    border-radius:12px;
+    display:block;
+    background:#000;
+}
+
+@media(min-width:768px){
+    .gallery{
+        grid-template-columns:repeat(4,1fr);
+    }
+}
