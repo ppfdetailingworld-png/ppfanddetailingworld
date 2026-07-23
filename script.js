@@ -6,10 +6,10 @@ const closeBtn = document.querySelector(".close");
 
 galleryImages.forEach((img) => {
   img.onclick = function () {
+    alert("Image Clicked");
     lightbox.style.display = "flex";
     lightboxImg.src = this.src;
-  };
-});
+};
 
 closeBtn.onclick = function () {
   lightbox.style.display = "none";
