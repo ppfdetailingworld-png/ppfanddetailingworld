@@ -306,3 +306,37 @@ color:#fff;
 cursor:pointer;
 z-index:1000000;
 }
+  .reviews{
+padding:60px 20px;
+background:#111;
+text-align:center;
+}
+
+.reviews h2{
+color:#FFD700;
+margin-bottom:30px;
+}
+
+.review-box{
+background:#1d1d1d;
+padding:20px;
+margin:20px auto;
+max-width:700px;
+border-radius:12px;
+box-shadow:0 0 10px rgba(255,215,0,.2);
+}
+
+.review-box h3{
+color:#FFD700;
+font-size:22px;
+margin-bottom:10px;
+}
+
+.review-box p{
+color:#fff;
+line-height:1.6;
+}
+
+.review-box strong{
+color:#FFD700;
+}
