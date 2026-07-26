@@ -648,7 +648,7 @@ text-align:center;
 
 #reviews-highlight h2{
 color:#FFD700;
-font-size:38px;
+font-size:34px;
 margin-bottom:20px;
 }
 
@@ -656,8 +656,8 @@ margin-bottom:20px;
 color:#ddd;
 max-width:850px;
 margin:0 auto 40px;
-line-height:1.8;
-font-size:18px;
+line-height:1.6;
+font-size:16px;
 }
 
 .review-stats{
@@ -672,7 +672,7 @@ margin-bottom:40px;
 background:#171717;
 border:1px solid rgba(255,215,0,.2);
 border-radius:20px;
-padding:28px;
+padding:22px;
 text-align:center;
 box-shadow:0 10px 25px rgba(0,0,0,.35);
 transition:.35s;
@@ -685,24 +685,25 @@ border-color:#FFD700;
 
 .stat-card h3{
 color:#FFD700;
-font-size:28px;
+font-size:22px;
 margin-bottom:15px;
 }
 
 .stat-card p{
 color:#fff;
-font-size:17px;
+font-size:15px;
 line-height:1.7;
 margin:0;
 }
 
 .review-btn{
 display:inline-block;
-padding:16px 36px;
+padding:13px 28px;
 background:#FFD700;
 color:#000;
 font-weight:700;
-border-radius:50px;
+font-size:15px;   
+border-radius:30px;
 text-decoration:none;
 transition:.35s;
 }
