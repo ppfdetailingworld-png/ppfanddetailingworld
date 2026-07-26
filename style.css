@@ -642,7 +642,7 @@ html{
 
 #reviews-highlight{
 background:#080808;
-padding:70px 20px;
+padding:4px 20px 60px;
 text-align:center;
 }
 
@@ -664,8 +664,8 @@ font-size:16px;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:25px;
-margin-top:40px;
-margin-bottom:40px;
+margin-top:25px;
+margin-bottom:20px;
 }
 
 .stat-card{
