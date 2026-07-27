@@ -712,11 +712,6 @@ border-radius:25px;
 text-decoration:none;
 transition:.35s;
 }
-.review-star{
-color:#ffffff;
-font-size:20px;
-margin-right:6px;
-}
 .review-btn:hover{
 transform:scale(1.05);
 }
