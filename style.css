@@ -699,13 +699,16 @@ margin:0;
 }
 
 .review-btn{
-display:inline-block;
-padding:13px 28px;
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:8px;
+padding:10px 22px;
 background:#FFD700;
 color:#000;
 font-weight:700;
-font-size:15px;   
-border-radius:30px;
+font-size:15px;
+border-radius:25px;
 text-decoration:none;
 transition:.35s;
 }
